@@ -1,0 +1,58 @@
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:35: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps,
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:597: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:836: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, fit_path=True,
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:862: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, positive=False):
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:1074: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:1306: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  max_n_alphas=1000, n_jobs=1, eps=np.finfo(np.float).eps,
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/least_angle.py:1442: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, copy_X=True, positive=False):
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/randomized_l1.py:152: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  precompute=False, eps=np.finfo(np.float).eps,
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/randomized_l1.py:318: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=np.finfo(np.float).eps, random_state=None,
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/linear_model/randomized_l1.py:575: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  eps=4 * np.finfo(np.float).eps, n_jobs=1,
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/decomposition/online_lda.py:31: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  EPS = np.finfo(np.float).eps
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/feature_extraction/image.py:167: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  dtype=np.int):
+/home/zj/anaconda3/lib/python3.8/site-packages/sklearn/feature_extraction/text.py:17: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+  from collections import Mapping, defaultdict
+ * Serving Flask app "flask_server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+C:m C:m 4
+[(0, 14, 0, 75, 4, 31, 9, 28), (1, 2, 0, 74, 4, 31, 9, 28), (1, 6, 0, 72, 2, 31, 9, 28), (1, 8, 0, 72, 8, 31, 9, 28)]
+[Note(start=1680, end=2160, pitch=75, velocity=126), Note(start=2160, end=2640, pitch=74, velocity=126), Note(start=2640, end=2880, pitch=72, velocity=126), Note(start=2880, end=3840, pitch=72, velocity=126)]
+[0.48, 0.48, 0.24, 0.96]
+['D♯5', 'D5', 'C5', 'C5']
+C:m 4
+[(0, 0, 0, 64, 4, 31, 9, 28), (0, 4, 0, 62, 4, 31, 9, 28), (0, 8, 0, 60, 4, 31, 9, 28), (0, 12, 0, 60, 4, 31, 9, 28)]
+[Note(start=0, end=480, pitch=64, velocity=126), Note(start=480, end=960, pitch=62, velocity=126), Note(start=960, end=1440, pitch=60, velocity=126), Note(start=1440, end=1920, pitch=60, velocity=126)]
+[0.48, 0.48, 0.48, 0.48]
+['E4', 'D4', 'C4', 'C4']
+C:m C:m 8
+[(0, 2, 0, 60, 2, 31, 9, 28), (0, 6, 0, 60, 2, 31, 9, 28), (0, 10, 0, 60, 2, 31, 9, 28), (0, 14, 0, 60, 2, 31, 9, 28), (1, 2, 0, 60, 2, 31, 9, 28), (1, 6, 0, 60, 2, 31, 9, 28), (1, 10, 0, 60, 2, 31, 9, 28), (1, 14, 0, 60, 16, 31, 9, 28)]
+[Note(start=240, end=480, pitch=60, velocity=126), Note(start=720, end=960, pitch=60, velocity=126), Note(start=1200, end=1440, pitch=60, velocity=126), Note(start=1680, end=1920, pitch=60, velocity=126), Note(start=2160, end=2400, pitch=60, velocity=126), Note(start=2640, end=2880, pitch=60, velocity=126), Note(start=3120, end=3360, pitch=60, velocity=126), Note(start=3600, end=5520, pitch=60, velocity=126)]
+[0.24, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24, 1.92]
+['C4', 'C4', 'C4', 'C4', 'C4', 'C4', 'C4', 'C4']
