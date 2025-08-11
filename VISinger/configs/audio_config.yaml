@@ -1,0 +1,28 @@
+
+###########################################################
+#                     数据预处理参数设置                     #
+###########################################################
+preprocessing_params:
+    sample_rate: 22050                      # 音频采样率
+    max_wav_value: 32768.0                  # 音频采样最大值
+    fft_size: 1024                          # FFT Size
+    win_size: 1024                          # 窗口大小
+    hop_size: 256                           # Hop size
+    preemphasis: 0.97                       # 预加重参数
+
+    load_mel_from_disk: True                # 是否加载预处理数据
+    n_mel_channels: 80                      # 梅尔谱通道数
+    mel_fmin: 50.0                          # 梅尔谱处理最低频率
+    mel_fmax: 7600.0                        # 梅尔谱处理最高频率
+    power: 1.2                              # Griffin-Lim 算法用到
+
+    max_db: -20                             # 用于归一化数据最大分贝数(经验值)
+    min_db: -80                             # 用于归一化数据最小分贝数（经验值）
+    env_level_db: 20                        # 录音环境参考噪声分贝数
+
+    trim_silence: True                      # 是否去除静音
+    top_db: 30                              # 静音的最大分贝数（去除阈值，小于该分贝认定为静音）
+    griffin_lim_iters: 50                   # Griffin-Lim 迭代次数
+
+    f0_min: 80
+    f0_max: 750
