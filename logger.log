@@ -1,0 +1,86 @@
+ * Serving Flask app 'controllers_music_generation_svs_v6_multispeaker.app'
+ * Debug mode: on
+[2023-06-16 16:35:08.942] 终端访问地址：127.0.0.1
+[2023-06-16 16:35:08.942] 用户：127_0_0_1，发起音乐文本生成请求！
+[2023-06-16 16:35:08.942] 传入关键词:美女
+[2023-06-16 16:35:10.857] 生成歌词：美女。你像花儿一样美丽。我愿做一只小蜜蜂。为你摘一朵美丽的花。为那春色铺满大地。只为那朝霞映红你的脸庞。为了那青春的容颜。我要用一生去守候着你。我的情意永不变。永远不移。啊,你是我最心爱的姑娘。
+['美女', '你像花儿一样美丽', '我愿做一只小蜜蜂', '为你摘一朵美丽的花', '为那春色铺满大地', '只为那朝霞映红你的脸庞', '为了那青春的容颜', '我要用一生去守候着你', '我的情意永不变', '永远不移', '啊', '你是我最心爱的姑娘', '']
+美女
+/home/zj/chatbot_online/music_generation/transformer_melody/beam_decoder.py:69: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  prev_k = best_scores_id // num_words
+Synthesising text:test0|美女AP|C#4 B3 rest|1.5 0.62 0.6
+合成耗时：1.496
+你像花儿一样美丽
+Synthesising text:test1|你像花儿一样美丽AP|D4 D4 F#4 D4 B3 D4 F#4 E4 rest|0.42 0.45 0.48 0.29 0.39 0.42 0.38 0.63 0.6
+合成耗时：0.125
+我愿做一只小蜜蜂
+Synthesising text:test2|我愿做一只小蜜蜂AP|G#4 G#4 G#4 C#4 C4 C#4 B3 A3 rest|0.21 0.34 0.43 0.29 0.34 0.33 0.43 0.66 0.6
+合成耗时：0.112
+为你摘一朵美丽的花
+Synthesising text:test3|为你摘一朵美丽的花AP|D4 G4 F#4 D4 B3 D4 D4 D4 D4 rest|0.3 0.28 0.49 0.26 0.37 0.4 0.6 0.21 0.96 0.6
+合成耗时：0.130
+为那春色铺满大地
+Synthesising text:test4|为那春色铺满大地AP|E4 F4 G4 A4 A4 D4 C4 D4 rest|0.23 0.27 0.3 0.27 0.26 0.41 0.39 0.64 0.6
+合成耗时：0.107
+只为那朝霞映红你的脸庞
+Synthesising text:test5|只为那朝霞映红你的脸庞AP|F#3 E4 D#4 E4 E4 D#4 E4 E4 E4 B3 B3 rest|0.35 0.28 0.32 0.36 0.22 0.3 0.35 0.41 0.35 0.44 0.61 0.6
+合成耗时：0.129
+为了那青春的容颜
+Synthesising text:test6|为了那青春的容颜AP|C4 D4 D#4 A#4 G4 F4 D#4 D4 rest|0.35 0.27 0.38 0.46 0.49 0.27 0.42 0.6 0.6
+合成耗时：0.113
+我要用一生去守候着你
+Synthesising text:test7|我要用一生去守候着你AP|B4 C#5 B4 B4 A4 A4 A4 F#4 E4 D4 rest|0.24 0.23 0.24 0.16 0.32 0.25 0.41 0.39 0.28 0.25 0.6
+合成耗时：0.109
+我的情意永不变
+Synthesising text:test8|我的情意永不变AP|C#4 E4 D#4 E4 F#4 D#4 B3 rest|0.37 0.2 0.47 0.26 0.33 0.17 0.3 0.6
+合成耗时：0.100
+永远不移
+Synthesising text:test9|永远不移AP|C5 G#4 A#4 A#4 rest|0.23 0.45 0.24 0.62 0.6
+合成耗时：0.095
+啊,你是我最心爱的姑娘
+Synthesising text:test10|啊,你是我最心爱的姑娘AP|G#3 A3 A3 A3 A3 G#3 D4 D4 E4 E4 B3 rest|0.47 0.29 0.29 0.39 0.26 0.4 0.7 0.33 0.35 1.25 0.42 0.6
+合成耗时：0.148
+歌声合成完成，保存路径：./syn_outputs/测试_0.wav
+NoneType: None
+[2023-06-16 16:35:14.813] 音频合成耗时：3.9550108909606934 秒。
+[2023-06-19 13:53:44.994] 终端访问地址：10.101.44.15
+[2023-06-19 13:53:45.017] 用户：10_101_44_15，发起音乐文本生成请求！
+[2023-06-19 13:53:45.017] 传入关键词:云朵
+[2023-06-19 13:53:46.805] 生成歌词：云朵飘呀飘。你可曾听见我呼唤着你的名字。风儿轻轻吹过我的窗前。像一朵美丽的云朵。它好像天上的彩霞。她就像那白云一样美丽。他仿佛是一片洁白的云朵。她在轻声唱着古老的歌谣。在悠扬的歌谣中回荡。啊啦啦啦。哦啦啦啦。
+['云朵飘呀飘', '你可曾听见我呼唤着你的名字', '风儿轻轻吹过我的窗前', '像一朵美丽的云朵', '它好像天上的彩霞', '她就像那白云一样美丽', '他仿佛是一片洁白的云朵', '她在轻声唱着古老的歌谣', '在悠扬的歌谣中回荡', '啊啦啦啦', '哦啦啦啦', '']
+云朵飘呀飘
+Synthesising text:test0|云朵飘呀飘AP|D#4 D#4 D#4 D4 D#4 rest|0.65 0.54 0.46 0.74 0.38 0.6
+合成耗时：0.118
+你可曾听见我呼唤着你的名字
+Synthesising text:test1|你可曾听见我呼唤着你的名字AP|G3 A3 F4 F4 F4 F4 E4 D4 D4 C4 C4 C4 C4 rest|0.29 0.36 0.4 0.43 0.41 0.31 0.45 0.38 0.38 0.41 0.41 0.53 0.44 0.6
+合成耗时：0.148
+风儿轻轻吹过我的窗前
+Synthesising text:test2|风儿轻轻吹过我的窗前AP|D4 D4 B3 D4 A4 G4 A4 G4 D4 D4 rest|0.48 0.34 0.49 0.32 0.5 0.36 0.46 0.4 1.03 0.78 0.6
+合成耗时：0.144
+像一朵美丽的云朵
+Synthesising text:test3|像一朵美丽的云朵AP|E4 D#4 C#4 B3 G#3 B3 C#4 C#4 rest|0.48 0.45 0.31 0.67 0.5 0.27 0.51 0.49 0.6
+合成耗时：0.127
+它好像天上的彩霞
+Synthesising text:test4|它好像天上的彩霞AP|C4 C#4 D#4 C4 C#4 D#4 G#3 C#4 rest|0.31 0.46 0.33 0.41 0.49 0.51 0.43 1.28 0.6
+合成耗时：0.132
+她就像那白云一样美丽
+Synthesising text:test5|她就像那白云一样美丽AP|G3 A#3 C4 D4 G3 A#3 A3 A#3 F4 F4 rest|0.29 0.38 0.32 0.43 0.25 0.27 0.43 0.52 0.43 0.61 0.6
+合成耗时：0.128
+他仿佛是一片洁白的云朵
+Synthesising text:test6|他仿佛是一片洁白的云朵AP|E3 F#3 A3 B3 B3 B3 A3 B3 A3 B3 C#4 rest|0.4 0.4 0.22 0.43 0.33 0.34 0.29 0.55 0.37 0.39 0.79 0.6
+合成耗时：0.134
+她在轻声唱着古老的歌谣
+Synthesising text:test7|她在轻声唱着古老的歌谣AP|F#3 A3 B3 B3 A3 B3 C#4 F#3 G#3 B3 A3 rest|0.33 0.24 0.42 0.22 0.32 0.23 0.23 0.37 0.36 0.39 0.33 0.6
+合成耗时：0.114
+在悠扬的歌谣中回荡
+Synthesising text:test8|在悠扬的歌谣中回荡AP|A3 B3 C#4 D4 E4 A3 D4 E4 B3 rest|0.3 0.51 0.31 0.29 0.33 0.31 0.33 0.58 1.4 0.6
+合成耗时：0.132
+啊啦啦啦
+Synthesising text:test9|啊啦啦啦AP|F#4 E4 D4 D4 rest|0.56 0.37 0.32 0.38 0.6
+合成耗时：0.095
+哦啦啦啦
+Synthesising text:test10|哦啦啦啦AP|F#4 E4 D4 D4 rest|0.44 0.31 0.35 0.72 0.6
+合成耗时：0.096
+歌声合成完成，保存路径：./syn_outputs/测试_0.wav
+NoneType: None
+[2023-06-19 13:53:49.634] 音频合成耗时：2.82891845703125 秒。
