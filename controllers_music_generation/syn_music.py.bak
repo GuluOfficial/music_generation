@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+# Description: 音乐生成接口 (pipeline-only)
+import os, sys, json, subprocess, base64, time, traceback
+from flask import request, jsonify
+
+from .app import *
+from utils.utils import parse_query_parameters
+
+def _keyword_to_lines(kw: str) -> str:
+    kw = (kw or "").strip()
+    if not kw:
+        return ""
+    # very light inline lyricer so we don't depend on external models
+    lines = [
+        f"{kw}在夜色里慢慢发光",
+        f"沿着河岸把心事流淌",
+        f"风把故事吹成了月光",
+        f"我把{kw}唱进你的心房",
+    ]
+    return "\n".join(lines)
+
+@app.route('/synthesis_music', methods=['POST'])
+def synthesis_music():
+    ip, data = parse_query_parameters(request, logger=logger)
+    ip_str = ip.replace(".", "_")
+    logger.log(f"用户：{ip_str} 发起音乐文本生成请求")
+
+    text = (data.get("text") or "").strip()
+    if not text:
+        # optional keyword fallback without external deps
+        kw = (data.get("keyword") or "").strip()
+        if not kw:
+            return jsonify({"code": 201, "message": "输入参数错误，必须提供非空的 text 或 keyword！"})
+        text = _keyword_to_lines(kw)
+        logger.log(f"由 keyword 生成简易歌词: {text}")
+
+    if len(text) < 1 or len(text) > 50000:
+        return jsonify({"code": 202, "message": "生成失败，传入文本必须大于1个字符，小于50000个字符！"})
+
+    try:
+        t_start = time.time()
+
+        # Build request for the pipeline
+        req_dict = {
+            "raw_lyrics":  text,
+            "ref_prompt":  data.get("ref_prompt", "hopeful,ballad,pop,emotion"),
+            "audio_length": int(data.get("audio_length", 95)),
+            "style":        data.get("style", "现代流行"),
+        }
+        req_str = json.dumps(req_dict, ensure_ascii=False)
+
+        # Paths & env
+        _APP_DIR   = os.path.dirname(os.path.abspath(__file__))
+        _REPO_ROOT = os.path.dirname(_APP_DIR)
+        pipeline   = os.path.join(_REPO_ROOT, "music_pipeline", "bin", "pipeline.sh")
+
+        env = os.environ.copy()
+        # force same interpreter & sensible GPU/memory defaults
+        env["PY"]  = sys.executable
+        env.setdefault("CUDA_VISIBLE_DEVICES", os.getenv("CUDA_VISIBLE_DEVICES", "6"))
+        env.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True,max_split_size_mb:64")
+        env.setdefault("WANDB_DISABLED", "true")
+        env.setdefault("HF_HOME", "/18T/app/hf_cache")
+        # DiffRhythm repo path (sibling of app)
+        env.setdefault("DIFFRHYTHM_REPO", os.path.join(_REPO_ROOT, "DiffRhythm"))
+
+        proc = subprocess.run(
+            ["bash", pipeline, req_str],
+            cwd=os.path.join(_REPO_ROOT, "music_pipeline"),
+            env=env, capture_output=True, text=True
+        )
+        if proc.returncode != 0:
+            logger.log(f"pipeline error: {proc.stderr or proc.stdout}")
+            return jsonify({"code": 203, "message": "服务器错误：pipeline 失败"}), 500
+
+        # parse key=value lines from pipeline output
+        info = {}
+        for line in (proc.stdout or "").splitlines():
+            if "=" in line:
+                k, v = line.split("=", 1)
+                info[k.strip()] = v.strip()
+
+        audio_path = info.get("audio_path")
+        if not audio_path or not os.path.exists(audio_path):
+            return jsonify({"code": 203, "message": "服务器错误：音频未生成"}), 500
+
+        with open(audio_path, "rb") as f:
+            wav_bytes = f.read()
+        bin_str = base64.b64encode(wav_bytes).decode()
+
+        json_result = {"code": 200, "message": "success！",
+                       "data": {"lyrics": text, "audio": bin_str}}
+        logger.log(f"音频合成耗时：{time.time() - t_start} 秒。")
+        return jsonify(json_result)
+
+    except Exception:
+        traceback.print_exc()
+        return jsonify({"code": 203, "message": "服务器错误，歌声合成出错！"})

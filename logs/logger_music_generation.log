@@ -8858,3 +8858,2078 @@ INFO:root:[2023-05-30 10:17:11.844] 用户：127_0_0_1，发起音乐文本生�
 INFO:root:[2023-05-30 10:17:16.110] 音频合成耗时：3.1398210525512695 秒。
 
 INFO:werkzeug:127.0.0.1 - - [30/May/2023 10:17:16] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5500
+ * Running on http://10.20.49.135:5500
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5500
+ * Running on http://10.20.49.135:5500
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://10.20.49.135:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:[2025-08-12 11:40:15.230] 终端访问地址：10.20.49.135
+
+INFO:root:[2025-08-12 11:40:15.230] 用户：10_20_49_135 发起音乐文本生成请求
+
+INFO:root:[2025-08-12 11:40:50.023] 音频合成耗时：34.792720794677734 秒。
+
+INFO:werkzeug:10.20.49.135 - - [12/Aug/2025 11:40:50] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://10.20.49.135:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:[2025-08-12 11:51:27.885] 终端访问地址：10.20.49.135
+
+INFO:root:[2025-08-12 11:51:27.885] 用户：10_20_49_135 发起音乐文本生成请求
+
+INFO:root:[2025-08-12 11:52:01.220] 音频合成耗时：33.334919929504395 秒。
+
+INFO:werkzeug:10.20.49.135 - - [12/Aug/2025 11:52:01] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-12 11:52:25.362] 终端访问地址：10.20.49.135
+
+INFO:root:[2025-08-12 11:52:25.362] 用户：10_20_49_135 发起音乐文本生成请求
+
+INFO:root:[2025-08-12 11:52:56.441] 音频合成耗时：31.079165935516357 秒。
+
+INFO:werkzeug:10.20.49.135 - - [12/Aug/2025 11:52:56] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:werkzeug:10.20.49.135 - - [12/Aug/2025 12:09:24] "[33mGET /healthz HTTP/1.1[0m" 404 -
+INFO:werkzeug:10.20.49.135 - - [12/Aug/2025 12:09:29] "[33mGET /healthz HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://10.20.49.135:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:10.20.49.135 - - [12/Aug/2025 12:09:47] "GET /healthz HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2025 12:15:11] "GET /healthz HTTP/1.1" 200 -
+INFO:root:[2025-08-12 12:15:35.186] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-12 12:15:35.187] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-12 12:15:35.187] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-12 12:16:11.912] 音频合成耗时：36.72507977485657 秒。
+
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2025 12:16:12] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-12 12:18:02.883] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-12 12:18:02.884] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-12 12:18:02.884] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-12 12:18:38.355] 音频合成耗时：35.4715838432312 秒。
+
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2025 12:18:38] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-12 12:19:42.114] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-12 12:19:42.114] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-12 12:19:42.114] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-12 12:20:17.081] 音频合成耗时：34.96628379821777 秒。
+
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2025 12:20:17] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-12 12:24:20.141] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-12 12:24:20.142] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-12 12:24:20.142] 由 keyword 生成简易歌词: 云朵在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把云朵唱进你的心房
+
+INFO:root:[2025-08-12 12:24:52.067] 音频合成耗时：31.92519783973694 秒。
+
+INFO:werkzeug:127.0.0.1 - - [12/Aug/2025 12:24:52] "POST /synthesis_music HTTP/1.0" 200 -
+INFO:root:[2025-08-13 02:36:26.425] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 02:36:26.425] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 02:36:26.425] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-13 02:37:00.530] 音频合成耗时：34.10451412200928 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 02:37:00] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 05:19:38.103] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 05:19:38.123] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 05:19:38.123] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-13 05:19:38.293] pipeline error: usage: lyrics2lrc.py [-h] [--no-header] [--title TITLE] [--artist ARTIST]
+                     [--lead-in LEAD_IN] [--min-interval MIN_INTERVAL]
+                     [--base BASE] [--per-char PER_CHAR] [--min MIN_DUR]
+                     [--max MAX_DUR] [--gap GAP_S]
+                     input_txt output_lrc
+lyrics2lrc.py: error: unrecognized arguments: --audio-length 95 --tail 12
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 05:19:38] "[35m[1mPOST /synthesis_music HTTP/1.1[0m" 500 -
+INFO:root:[2025-08-13 05:20:00.238] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 05:20:00.238] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 05:20:00.238] 由 keyword 生成简易歌词: 云朵在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把云朵唱进你的心房
+
+INFO:root:[2025-08-13 05:20:00.391] pipeline error: usage: lyrics2lrc.py [-h] [--no-header] [--title TITLE] [--artist ARTIST]
+                     [--lead-in LEAD_IN] [--min-interval MIN_INTERVAL]
+                     [--base BASE] [--per-char PER_CHAR] [--min MIN_DUR]
+                     [--max MAX_DUR] [--gap GAP_S]
+                     input_txt output_lrc
+lyrics2lrc.py: error: unrecognized arguments: --audio-length 95 --tail 12
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 05:20:00] "[35m[1mPOST /synthesis_music HTTP/1.0[0m" 500 -
+INFO:root:[2025-08-13 05:20:01.140] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 05:20:01.140] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 05:20:01.140] 由 keyword 生成简易歌词: 云朵在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把云朵唱进你的心房
+
+INFO:root:[2025-08-13 05:20:01.290] pipeline error: usage: lyrics2lrc.py [-h] [--no-header] [--title TITLE] [--artist ARTIST]
+                     [--lead-in LEAD_IN] [--min-interval MIN_INTERVAL]
+                     [--base BASE] [--per-char PER_CHAR] [--min MIN_DUR]
+                     [--max MAX_DUR] [--gap GAP_S]
+                     input_txt output_lrc
+lyrics2lrc.py: error: unrecognized arguments: --audio-length 95 --tail 12
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 05:20:01] "[35m[1mPOST /synthesis_music HTTP/1.0[0m" 500 -
+INFO:root:[2025-08-13 05:20:01.692] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 05:20:01.692] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 05:20:01.692] 由 keyword 生成简易歌词: 云朵在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把云朵唱进你的心房
+
+INFO:root:[2025-08-13 05:20:01.850] pipeline error: usage: lyrics2lrc.py [-h] [--no-header] [--title TITLE] [--artist ARTIST]
+                     [--lead-in LEAD_IN] [--min-interval MIN_INTERVAL]
+                     [--base BASE] [--per-char PER_CHAR] [--min MIN_DUR]
+                     [--max MAX_DUR] [--gap GAP_S]
+                     input_txt output_lrc
+lyrics2lrc.py: error: unrecognized arguments: --audio-length 95 --tail 12
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 05:20:01] "[35m[1mPOST /synthesis_music HTTP/1.0[0m" 500 -
+INFO:root:[2025-08-13 05:20:01.991] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 05:20:01.991] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 05:20:01.992] 由 keyword 生成简易歌词: 云朵在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把云朵唱进你的心房
+
+INFO:root:[2025-08-13 05:20:02.150] pipeline error: usage: lyrics2lrc.py [-h] [--no-header] [--title TITLE] [--artist ARTIST]
+                     [--lead-in LEAD_IN] [--min-interval MIN_INTERVAL]
+                     [--base BASE] [--per-char PER_CHAR] [--min MIN_DUR]
+                     [--max MAX_DUR] [--gap GAP_S]
+                     input_txt output_lrc
+lyrics2lrc.py: error: unrecognized arguments: --audio-length 95 --tail 12
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 05:20:02] "[35m[1mPOST /synthesis_music HTTP/1.0[0m" 500 -
+INFO:root:[2025-08-13 05:20:02.327] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 05:20:02.327] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 05:20:02.327] 由 keyword 生成简易歌词: 云朵在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把云朵唱进你的心房
+
+INFO:root:[2025-08-13 05:20:02.480] pipeline error: usage: lyrics2lrc.py [-h] [--no-header] [--title TITLE] [--artist ARTIST]
+                     [--lead-in LEAD_IN] [--min-interval MIN_INTERVAL]
+                     [--base BASE] [--per-char PER_CHAR] [--min MIN_DUR]
+                     [--max MAX_DUR] [--gap GAP_S]
+                     input_txt output_lrc
+lyrics2lrc.py: error: unrecognized arguments: --audio-length 95 --tail 12
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 05:20:02] "[35m[1mPOST /synthesis_music HTTP/1.0[0m" 500 -
+INFO:root:[2025-08-13 06:02:37.704] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 06:02:37.704] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 06:02:37.704] 由 keyword 生成简易歌词: 烟波江上在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把烟波江上唱进你的心房
+
+INFO:root:[2025-08-13 06:03:13.561] 音频合成耗时：35.85646438598633 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 06:03:13] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 06:04:23.529] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 06:04:23.530] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 06:04:23.530] 由 keyword 生成简易歌词: 西湖在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把西湖唱进你的心房
+
+INFO:root:[2025-08-13 06:04:55.827] 音频合成耗时：32.29745078086853 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 06:04:55] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 06:05:44.456] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 06:05:44.457] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 06:05:44.457] 由 keyword 生成简易歌词: 我能陪你聊天在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把我能陪你聊天唱进你的心房
+
+INFO:root:[2025-08-13 06:06:20.555] 音频合成耗时：36.09800124168396 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 06:06:20] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 06:07:02.096] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 06:07:02.096] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 06:07:02.096] 由 keyword 生成简易歌词: 星空在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把星空唱进你的心房
+
+INFO:root:[2025-08-13 06:07:38.093] 音频合成耗时：35.99677848815918 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 06:07:38] "POST /synthesis_music HTTP/1.0" 200 -
+INFO:root:[2025-08-13 06:07:59.326] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 06:07:59.326] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 06:07:59.326] 由 keyword 生成简易歌词: 浙江在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把浙江唱进你的心房
+
+INFO:root:[2025-08-13 06:08:33.825] 音频合成耗时：34.49932050704956 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 06:08:33] "POST /synthesis_music HTTP/1.0" 200 -
+INFO:root:[2025-08-13 06:09:53.214] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 06:09:53.214] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 06:09:53.214] 由 keyword 生成简易歌词: 浙江在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把浙江唱进你的心房
+
+INFO:root:[2025-08-13 06:10:26.738] 音频合成耗时：33.52349829673767 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 06:10:26] "POST /synthesis_music HTTP/1.0" 200 -
+INFO:root:[2025-08-13 06:57:56.602] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 06:57:56.602] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 06:57:56.602] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-13 06:58:30.403] 音频合成耗时：33.80108690261841 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 06:58:30] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 07:00:34.225] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 07:00:34.225] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 07:00:34.225] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-13 07:01:08.107] 音频合成耗时：33.8821222782135 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 07:01:08] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 07:12:35.217] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 07:12:35.217] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 07:12:35.217] 由 keyword 生成简易歌词: 我说了所有的谎 你全都相信 简单的我爱你 你却老不信 你书里的剧情 我不想上演 因为我喜欢喜剧收尾 我试过完美放弃 的确很踏实 醒来了梦散了 你我都走散了 情歌的词何必押韵 就算我是k歌之王在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把我说了所有的谎 你全都相信 简单的我爱你 你却老不信 你书里的剧情 我不想上演 因为我喜欢喜剧收尾 我试过完美放弃 的确很踏实 醒来了梦散了 你我都走散了 情歌的词何必押韵 就算我是k歌之王唱进你的心房
+
+INFO:root:[2025-08-13 07:13:07.758] 音频合成耗时：32.54044699668884 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 07:13:07] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 07:38:34.090] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 07:38:34.090] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 07:38:34.090] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-13 07:39:08.583] 音频合成耗时：34.49186992645264 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 07:39:08] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 07:56:42.643] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 07:56:42.644] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 07:56:42.644] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-13 07:57:18.220] 音频合成耗时：35.57632231712341 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 07:57:18] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 08:22:36.139] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 08:22:36.140] 用户：127_0_0_1 发起音乐文本生成请求
+
+INFO:root:[2025-08-13 08:22:36.140] 由 keyword 生成简易歌词: 玫瑰在夜色里慢慢发光
+沿着河岸把心事流淌
+风把故事吹成了月光
+我把玫瑰唱进你的心房
+
+INFO:root:[2025-08-13 08:23:10.152] 音频合成耗时：34.01214861869812 秒。
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 08:23:10] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5500
+ * Running on http://10.20.49.135:5500
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://10.20.49.135:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 08:54:25] "GET /healthz HTTP/1.1" 200 -
+INFO:root:[2025-08-13 08:54:38.348] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 08:54:38.349] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '夏夜与河流，温柔内省，现代流行', 'audio_length': 95, 'ref_prompt': 'hopeful,ballad,pop,emotion'}
+
+INFO:root:[2025-08-13 08:54:38.349] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 08:54:38.349] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "夏夜与河流，温柔内省，现代流行"}']
+
+INFO:root:[2025-08-13 08:55:17.920] 管线输出：
+Wrote 28 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00056/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.74 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00056/song.wav
+request_id=REQ-00056
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00056/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00056/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00056/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 08:55:18] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 08:58:53] "GET /healthz HTTP/1.1" 200 -
+INFO:root:[2025-08-13 08:59:00.856] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 08:59:00.856] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '夏夜与河流，温柔内省，现代流行', 'audio_length': 95, 'ref_prompt': 'hopeful,ballad,pop,emotion'}
+
+INFO:root:[2025-08-13 08:59:00.857] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 08:59:00.857] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "夏夜与河流，温柔内省，现代流行"}']
+
+INFO:root:[2025-08-13 08:59:33.104] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 08:59:33.105] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 08:59:33.105] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 08:59:33.105] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 08:59:57.314] 管线输出：
+Wrote 18 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00057/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 4.00 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00057/song.wav
+request_id=REQ-00057
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00057/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00057/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00057/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 08:59:57] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 09:00:54.853] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00058/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.73 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00058/song.wav
+request_id=REQ-00058
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00058/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00058/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00058/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 09:00:55] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 09:02:02.153] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 09:02:02.153] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 09:02:02.153] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 09:02:02.154] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 09:03:20.622] 管线输出：
+Wrote 25 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00059/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.78 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00059/song.wav
+request_id=REQ-00059
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00059/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00059/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00059/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 09:03:20] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://10.20.49.135:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:[2025-08-13 09:21:22.646] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 09:21:22.647] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 09:21:22.647] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 09:21:22.647] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 09:22:15.806] 管线输出：
+Wrote 22 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00060/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 4.05 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00060/song.wav
+request_id=REQ-00060
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00060/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00060/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00060/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 09:22:16] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 09:26:19.947] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 09:26:19.948] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '浙江', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-13 09:26:19.948] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 09:26:19.948] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "浙江"}']
+
+INFO:root:[2025-08-13 09:27:07.325] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00061/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.75 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00061/song.wav
+request_id=REQ-00061
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00061/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00061/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00061/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 09:27:07] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 09:31:02.581] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 09:31:02.581] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '浙江', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-13 09:31:02.582] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 09:31:02.582] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "浙江"}']
+
+INFO:root:[2025-08-13 09:31:56.809] 管线输出：
+Wrote 31 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00062/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.83 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00062/song.wav
+request_id=REQ-00062
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00062/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00062/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00062/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 09:31:56] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 09:36:16.908] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 09:36:16.908] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 09:36:16.908] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 09:36:16.908] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 09:37:48.805] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00063/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.74 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00063/song.wav
+request_id=REQ-00063
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00063/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00063/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00063/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 09:37:48] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 09:38:04.281] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 09:38:04.281] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 09:38:04.281] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 09:38:04.281] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 09:38:43.387] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00064/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.75 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00064/song.wav
+request_id=REQ-00064
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00064/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00064/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00064/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 09:38:43] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 11:21:35.908] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 11:21:35.908] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 11:21:35.908] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 11:21:35.908] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 11:36:36.037] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 11:36:36.037] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 11:36:36.037] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 11:36:36.037] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 11:41:35.007] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00065/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 4.93 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00065/song.wav
+request_id=REQ-00065
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00065/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00065/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00065/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 11:41:35] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 11:41:37.310] 管线输出：
+Wrote 18 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00066/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 4.81 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00066/song.wav
+request_id=REQ-00066
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00066/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00066/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00066/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 11:41:37] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 11:41:42.428] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 11:41:42.428] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 11:41:42.428] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 11:41:42.428] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 11:42:18.558] 管线输出：
+Wrote 5 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00067/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.79 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00067/song.wav
+request_id=REQ-00067
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00067/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00067/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00067/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 11:42:18] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 11:42:23.045] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 11:42:23.045] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 11:42:23.046] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 11:42:23.046] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 11:43:03.883] 管线输出：
+Wrote 16 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00068/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.75 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00068/song.wav
+request_id=REQ-00068
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00068/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00068/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00068/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 11:43:04] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 11:43:09.798] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 11:43:09.798] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 11:43:09.799] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 11:43:09.799] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 11:43:47.946] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00069/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.75 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00069/song.wav
+request_id=REQ-00069
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00069/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00069/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00069/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 11:43:48] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 11:43:52.726] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 11:43:52.726] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 11:43:52.726] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 11:43:52.726] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 11:44:28.888] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00070/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.82 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00070/song.wav
+request_id=REQ-00070
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00070/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00070/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00070/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 11:44:29] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://10.20.49.135:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://10.20.49.135:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:[2025-08-13 12:08:39.599] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 12:08:39.599] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 12:08:39.599] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 12:08:39.599] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 12:09:25.703] 管线输出：
+Wrote 14 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00071/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.99 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00071/song.wav
+request_id=REQ-00071
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00071/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00071/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00071/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 12:09:25] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 12:11:28.857] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 12:11:28.857] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 12:11:28.858] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 12:11:28.858] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 12:12:06.354] 管线输出：
+Wrote 15 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00072/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.74 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00072/song.wav
+request_id=REQ-00072
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00072/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00072/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00072/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 12:12:06] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-13 12:13:29.583] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-13 12:13:29.583] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-13 12:13:29.583] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-13 12:13:29.583] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-13 12:14:12.856] 管线输出：
+Wrote 13 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00073/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.77 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00073/song.wav
+request_id=REQ-00073
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00073/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00073/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00073/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [13/Aug/2025 12:14:13] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 02:08:12.768] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 02:08:12.769] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-14 02:08:12.769] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 02:08:12.769] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-14 02:09:19.513] 管线输出：
+Wrote 21 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00074/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.85 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00074/song.wav
+request_id=REQ-00074
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00074/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00074/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00074/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 02:09:19] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 02:09:44.443] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 02:09:44.444] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-14 02:09:44.444] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 02:09:44.444] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-14 02:24:44.559] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 02:24:44.559] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-14 02:24:44.559] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 02:24:44.559] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-14 02:30:07.012] 管线失败：
+Wrote 1 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00075/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+
+ERR:
+/home/app/.local/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:121: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/app/.local/lib/python3.13/site-packages/torch/nn/utils/weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Building prefix dict from the default dictionary ...
+Loading model from cache /18T/app/tmp/app/jieba.cache
+Loading model cost 0.495 seconds.
+Prefix dict has been built successfully.
+/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py:101: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:254.)
+  batch_label_starts = torch.tensor(batch_label_starts, dtype=torch.long)
+[1;31m2025-08-14 02:30:05.306912657 [E:onnxruntime:, sequential_executor.cc:572 ExecuteKernel] Non-zero status code returned while running Expand node. Name:'/bert/Expand' Status Message: invalid expand shape[m
+Traceback (most recent call last):
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer.py", line 185, in <module>
+    lrc_prompt, start_time = get_lrc_token(max_frames, lrc, tokenizer, device)
+                             ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer_utils.py", line 375, in get_lrc_token
+    line_token = tokenizer.encode(line)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer_utils.py", line 352, in encode
+    phone, token = self.tokenizer(text)
+                   ~~~~~~~~~~~~~~^^^^^^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p_generation.py", line 106, in chn_eng_g2p
+    phoneme, token = g2p(seg[0], text, seg[1])
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p_generation.py", line 25, in g2p
+    return text_tokenizer.tokenize(text=text, sentence=sentence, language=language)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/__init__.py", line 52, in tokenize
+    phonemes = self._clean_text(text, sentence, language, ["cjekfd_cleaners"])
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/__init__.py", line 70, in _clean_text
+    text = cleaner(text, sentence, language, self.text_tokenizers)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/cleaners.py", line 17, in cjekfd_cleaners
+    return chinese_to_ipa(text, sentence, text_tokenizers["zh"])
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/mandarin.py", line 590, in chinese_to_ipa
+    return _chinese_to_ipa(text, sentence)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/mandarin.py", line 573, in _chinese_to_ipa
+    text = chinese_to_bopomofo(text, sentence)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/mandarin.py", line 508, in chinese_to_bopomofo
+    poly_pinyin = g2pw_poly_predict.predict_process(
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        [text_short, char_index + i]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )[0]
+    ^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py", line 139, in predict_process
+    pred_tags = self.predict_onnx(predict_loader)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py", line 158, in predict_onnx
+    batch_output = self.session.run(
+                   ~~~~~~~~~~~~~~~~^
+        output_names=["outputs"], input_feed={"input_ids": batch_data}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )[0]
+    ^
+  File "/home/app/.local/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py", line 273, in run
+    return self._sess.run(output_names, input_feed, run_options)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+onnxruntime.capi.onnxruntime_pybind11_state.InvalidArgument: [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Non-zero status code returned while running Expand node. Name:'/bert/Expand' Status Message: invalid expand shape
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 02:30:07] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 02:30:15.093] 管线输出：
+Wrote 25 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00076/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.76 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00076/song.wav
+request_id=REQ-00076
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00076/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00076/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00076/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 02:30:15] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 02:32:59.947] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 02:32:59.947] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-14 02:32:59.947] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 02:32:59.947] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-14 02:33:41.783] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00077/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.81 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00077/song.wav
+request_id=REQ-00077
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00077/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00077/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00077/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 02:33:41] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 02:36:49.363] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 02:36:49.364] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '现在是什么情况'}
+
+INFO:root:[2025-08-14 02:36:49.364] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 02:36:49.364] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "现在是什么情况"}']
+
+INFO:root:[2025-08-14 02:37:26.521] 管线输出：
+Wrote 11 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00078/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.80 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00078/song.wav
+request_id=REQ-00078
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00078/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00078/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00078/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 02:37:26] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 02:40:31.152] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 02:40:31.153] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰是什么'}
+
+INFO:root:[2025-08-14 02:40:31.153] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 02:40:31.153] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰是什么"}']
+
+INFO:root:[2025-08-14 02:41:10.426] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00079/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.77 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00079/song.wav
+request_id=REQ-00079
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00079/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00079/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00079/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 02:41:10] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 02:41:58.408] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 02:41:58.408] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '浙江', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-14 02:41:58.408] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 02:41:58.408] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "浙江"}']
+
+INFO:root:[2025-08-14 02:42:38.090] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00080/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.85 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00080/song.wav
+request_id=REQ-00080
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00080/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00080/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00080/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 02:42:38] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 02:49:02.651] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 02:49:02.651] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '今天做ppt来不及了'}
+
+INFO:root:[2025-08-14 02:49:02.651] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 02:49:02.651] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "今天做ppt来不及了"}']
+
+INFO:root:[2025-08-14 02:49:46.710] 管线输出：
+Wrote 23 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00081/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.96 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00081/song.wav
+request_id=REQ-00081
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00081/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00081/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00081/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 02:49:46] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 03:29:13.008] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 03:29:13.008] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': 'ppt做完了'}
+
+INFO:root:[2025-08-14 03:29:13.008] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 03:29:13.008] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "ppt做完了"}']
+
+INFO:root:[2025-08-14 03:29:54.908] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00082/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.77 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00082/song.wav
+request_id=REQ-00082
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00082/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00082/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00082/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 03:29:55] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-14 04:53:47.174] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-14 04:53:47.174] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': 'kendrick lamar'}
+
+INFO:root:[2025-08-14 04:53:47.175] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-14 04:53:47.175] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "kendrick lamar"}']
+
+INFO:root:[2025-08-14 04:54:35.552] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00083/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.83 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00083/song.wav
+request_id=REQ-00083
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00083/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00083/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00083/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 04:54:35] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 02:37:00.773] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 02:37:00.773] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '想写一首歌'}
+
+INFO:root:[2025-08-15 02:37:00.773] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 02:37:00.773] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "想写一首歌"}']
+
+INFO:root:[2025-08-15 02:37:47.379] 管线输出：
+Wrote 31 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00084/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.78 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00084/song.wav
+request_id=REQ-00084
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00084/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00084/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00084/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 02:37:47] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 07:11:06.500] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 07:11:06.500] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-15 07:11:06.500] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 07:11:06.500] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-15 07:11:59.249] 管线输出：
+Wrote 29 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00085/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.77 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00085/song.wav
+request_id=REQ-00085
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00085/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00085/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00085/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 07:11:59] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 07:29:24.855] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 07:29:24.855] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-15 07:29:24.855] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 07:29:24.855] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-15 07:29:30.852] 管线失败：
+
+ERR:
+Traceback (most recent call last):
+  File "/18T/app/chatbot_online/music_generation/music_pipeline/py/lyrics2lrc.py", line 113, in <module>
+    main()
+    ~~~~^^
+  File "/18T/app/chatbot_online/music_generation/music_pipeline/py/lyrics2lrc.py", line 96, in main
+    lines  = [lines[i]  for i in keep_idx]
+              ~~~~~^^^
+IndexError: list index out of range
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 07:29:30] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 07:37:16.510] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 07:37:16.510] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-15 07:37:16.510] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 07:37:16.510] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-15 07:38:28.528] 管线输出：
+Wrote 21 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00087/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.94 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00087/song.wav
+request_id=REQ-00087
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00087/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00087/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00087/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 07:38:28] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 07:39:33.261] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 07:39:33.262] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰天才'}
+
+INFO:root:[2025-08-15 07:39:33.262] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 07:39:33.262] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰天才"}']
+
+INFO:root:[2025-08-15 07:41:02.992] 管线输出：
+Wrote 21 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00088/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.80 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00088/song.wav
+request_id=REQ-00088
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00088/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00088/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00088/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 07:41:03] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 07:45:08.271] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 07:45:08.271] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '天才玫瑰'}
+
+INFO:root:[2025-08-15 07:45:08.271] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 07:45:08.271] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "天才玫瑰"}']
+
+INFO:root:[2025-08-15 07:46:51.852] 管线输出：
+Wrote 14 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00089/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.96 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00089/song.wav
+request_id=REQ-00089
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00089/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00089/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00089/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 07:46:52] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 08:12:21.948] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 08:12:21.948] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '爱人', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-15 08:12:21.948] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 08:12:21.948] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "爱人"}']
+
+INFO:root:[2025-08-15 08:13:02.710] 管线输出：
+Wrote 4 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00090/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.79 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00090/song.wav
+request_id=REQ-00090
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00090/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00090/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00090/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 08:13:02] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 08:16:28.106] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 08:16:28.106] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰西湖'}
+
+INFO:root:[2025-08-15 08:16:28.106] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 08:16:28.106] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰西湖"}']
+
+INFO:root:[2025-08-15 08:17:09.867] 管线输出：
+Wrote 32 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00091/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.78 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00091/song.wav
+request_id=REQ-00091
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00091/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00091/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00091/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 08:17:10] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 08:18:42.733] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 08:18:42.733] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '玫瑰', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-15 08:18:42.733] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 08:18:42.733] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-15 08:19:21.635] 管线输出：
+Wrote 14 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00092/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.87 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00092/song.wav
+request_id=REQ-00092
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00092/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00092/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00092/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 08:19:21] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 08:26:26.822] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 08:26:26.822] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '玫瑰', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-15 08:26:26.822] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 08:26:26.822] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-15 08:27:05.435] 管线输出：
+Wrote 1 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00093/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.80 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00093/song.wav
+request_id=REQ-00093
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00093/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00093/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00093/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 08:27:05] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 08:28:03.901] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 08:28:03.901] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰烟'}
+
+INFO:root:[2025-08-15 08:28:03.901] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 08:28:03.902] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰烟"}']
+
+INFO:root:[2025-08-15 08:28:40.562] 管线输出：
+Wrote 14 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00094/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.84 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00094/song.wav
+request_id=REQ-00094
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00094/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00094/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00094/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 08:28:40] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 08:30:12.138] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 08:30:12.138] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': ' 星空', 'singer_id': 1, 'style_id': 0}
+
+INFO:root:[2025-08-15 08:30:12.138] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 08:30:12.138] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "星空"}']
+
+INFO:root:[2025-08-15 08:30:51.089] 管线输出：
+Wrote 26 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00095/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.83 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00095/song.wav
+request_id=REQ-00095
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00095/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00095/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00095/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 08:30:51] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 08:47:38.781] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 08:47:38.781] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '云朵', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-15 08:47:38.782] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 08:47:38.782] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "云朵"}']
+
+INFO:root:[2025-08-15 08:48:19.985] 管线输出：
+Wrote 21 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00096/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.81 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00096/song.wav
+request_id=REQ-00096
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00096/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00096/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00096/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 08:48:20] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 09:25:24.482] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 09:25:24.482] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '成都', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-15 09:25:24.483] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 09:25:24.483] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "成都"}']
+
+INFO:root:[2025-08-15 09:26:46.455] 管线失败：
+Wrote 1 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00097/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+
+ERR:
+/home/app/.local/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:121: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/app/.local/lib/python3.13/site-packages/torch/nn/utils/weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Building prefix dict from the default dictionary ...
+Loading model from cache /18T/app/tmp/app/jieba.cache
+Loading model cost 0.480 seconds.
+Prefix dict has been built successfully.
+/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py:101: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:254.)
+  batch_label_starts = torch.tensor(batch_label_starts, dtype=torch.long)
+[1;31m2025-08-15 09:26:45.033608379 [E:onnxruntime:, sequential_executor.cc:572 ExecuteKernel] Non-zero status code returned while running Expand node. Name:'/bert/Expand' Status Message: invalid expand shape[m
+Traceback (most recent call last):
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer.py", line 185, in <module>
+    lrc_prompt, start_time = get_lrc_token(max_frames, lrc, tokenizer, device)
+                             ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer_utils.py", line 375, in get_lrc_token
+    line_token = tokenizer.encode(line)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer_utils.py", line 352, in encode
+    phone, token = self.tokenizer(text)
+                   ~~~~~~~~~~~~~~^^^^^^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p_generation.py", line 106, in chn_eng_g2p
+    phoneme, token = g2p(seg[0], text, seg[1])
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p_generation.py", line 25, in g2p
+    return text_tokenizer.tokenize(text=text, sentence=sentence, language=language)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/__init__.py", line 52, in tokenize
+    phonemes = self._clean_text(text, sentence, language, ["cjekfd_cleaners"])
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/__init__.py", line 70, in _clean_text
+    text = cleaner(text, sentence, language, self.text_tokenizers)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/cleaners.py", line 17, in cjekfd_cleaners
+    return chinese_to_ipa(text, sentence, text_tokenizers["zh"])
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/mandarin.py", line 590, in chinese_to_ipa
+    return _chinese_to_ipa(text, sentence)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/mandarin.py", line 573, in _chinese_to_ipa
+    text = chinese_to_bopomofo(text, sentence)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/mandarin.py", line 508, in chinese_to_bopomofo
+    poly_pinyin = g2pw_poly_predict.predict_process(
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        [text_short, char_index + i]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )[0]
+    ^
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py", line 139, in predict_process
+    pred_tags = self.predict_onnx(predict_loader)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py", line 158, in predict_onnx
+    batch_output = self.session.run(
+                   ~~~~~~~~~~~~~~~~^
+        output_names=["outputs"], input_feed={"input_ids": batch_data}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )[0]
+    ^
+  File "/home/app/.local/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py", line 273, in run
+    return self._sess.run(output_names, input_feed, run_options)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+onnxruntime.capi.onnxruntime_pybind11_state.InvalidArgument: [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Non-zero status code returned while running Expand node. Name:'/bert/Expand' Status Message: invalid expand shape
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 09:26:46] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 09:27:07.870] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 09:27:07.870] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '浙江', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-15 09:27:07.870] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 09:27:07.870] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "浙江"}']
+
+INFO:root:[2025-08-15 09:27:45.783] 管线输出：
+Wrote 19 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00098/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.78 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00098/song.wav
+request_id=REQ-00098
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00098/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00098/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00098/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 09:27:45] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-15 09:28:24.636] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-15 09:28:24.636] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '云朵', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-15 09:28:24.637] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-15 09:28:24.637] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "云朵"}']
+
+INFO:root:[2025-08-15 09:29:05.503] 管线输出：
+Wrote 21 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00099/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.80 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00099/song.wav
+request_id=REQ-00099
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00099/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00099/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00099/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2025 09:29:05] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-18 03:45:19.929] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-18 03:45:19.929] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '介绍PPT'}
+
+INFO:root:[2025-08-18 03:45:19.929] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-18 03:45:19.929] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "介绍PPT"}']
+
+INFO:root:[2025-08-18 03:46:28.231] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-18 03:46:28.231] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '云朵', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-18 03:46:28.231] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-18 03:46:28.231] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "云朵"}']
+
+INFO:root:[2025-08-18 03:47:32.063] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-18 03:47:32.064] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '云朵', 'singer_id': 1, 'style_id': 0}
+
+INFO:root:[2025-08-18 03:47:32.064] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-18 03:47:32.064] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "云朵"}']
+
+INFO:root:[2025-08-18 03:53:26.925] 管线失败：
+Wrote 20 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00101/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+
+ERR:
+/home/app/.local/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:121: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+/home/app/.local/lib/python3.13/site-packages/torch/nn/utils/weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Building prefix dict from the default dictionary ...
+Loading model from cache /18T/app/tmp/app/jieba.cache
+Loading model cost 0.600 seconds.
+Prefix dict has been built successfully.
+/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py:101: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:254.)
+  batch_label_starts = torch.tensor(batch_label_starts, dtype=torch.long)
+Traceback (most recent call last):
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer.py", line 197, in <module>
+    generated_songs = inference(
+        cfm_model=cfm,
+    ...<9 lines>...
+        batch_infer_num=args.batch_infer_num
+    )
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer.py", line 70, in inference
+    output = decode_audio(latent, vae_model, chunked=chunked)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer_utils.py", line 104, in decode_audio
+    return vae_model.decode_export(latents)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+RuntimeError: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/stable_audio_tools/models/autoencoders.py", line 22, in decode_export
+    latents: Tensor) -> Tensor:
+    decoder = self.decoder
+    return (decoder).forward(latents, )
+            ~~~~~~~~~~~~~~~~ <--- HERE
+  def encode_export(self: __torch__.stable_audio_tools.models.autoencoders.AudioAutoencoder,
+    audio: Tensor) -> Tensor:
+  File "code/__torch__/stable_audio_tools/models/autoencoders.py", line 70, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    return (layers).forward(x, )
+            ~~~~~~~~~~~~~~~ <--- HERE
+class DecoderBlock(Module):
+  __parameters__ = []
+  File "code/__torch__/torch/nn/modules/container/___torch_mangle_69.py", line 31, in forward
+    input3 = (_3).forward(input2, )
+    input4 = (_4).forward(input3, )
+    input5 = (_5).forward(input4, )
+              ~~~~~~~~~~~ <--- HERE
+    input6 = (_6).forward(input5, )
+    input7 = (_7).forward(input6, )
+  File "code/__torch__/stable_audio_tools/models/autoencoders/___torch_mangle_67.py", line 10, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    return (layers).forward(x, )
+            ~~~~~~~~~~~~~~~ <--- HERE
+  File "code/__torch__/torch/nn/modules/container/___torch_mangle_66.py", line 20, in forward
+    input0 = (_0).forward(input, )
+    input1 = (_1).forward(input0, None, )
+    input2 = (_2).forward(input1, )
+              ~~~~~~~~~~~ <--- HERE
+    input3 = (_3).forward(input2, )
+    return (_4).forward(input3, )
+  File "code/__torch__/stable_audio_tools/models/autoencoders.py", line 58, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    x0 = (layers).forward(x, )
+          ~~~~~~~~~~~~~~~ <--- HERE
+    return torch.add(x0, x)
+class OobleckDecoder(Module):
+  File "code/__torch__/torch/nn/modules/container.py", line 16, in forward
+    _2 = getattr(self, "2")
+    _3 = getattr(self, "3")
+    input0 = (_0).forward(input, )
+              ~~~~~~~~~~~ <--- HERE
+    input1 = (_1).forward(input0, )
+    input2 = (_2).forward(input1, )
+  File "code/__torch__/stable_audio_tools/models/blocks.py", line 23, in forward
+    else:
+      alpha1, beta1 = alpha0, beta0
+    return _0(x, alpha1, beta1, )
+           ~~ <--- HERE
+def snake_beta(x: Tensor,
+    alpha: Tensor,
+  File "code/__torch__/stable_audio_tools/models/blocks.py", line 29, in snake_beta
+  _1 = torch.add(beta, 1.0000000000000001e-09)
+  _2 = torch.mul(torch.reciprocal(_1), 1.)
+  _3 = torch.pow(torch.sin(torch.mul(x, alpha)), 2)
+                 ~~~~~~~~~ <--- HERE
+  return torch.add(x, torch.mul(_2, _3))
+
+Traceback of TorchScript, original code (most recent call last):
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 327, in decode_export
+    @torch.jit.export
+    def decode_export(self, latents):
+        decoded = self.decoder(latents)
+                  ~~~~~~~~~~~~ <--- HERE
+        return decoded
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 191, in forward
+    def forward(self, x):
+        return self.layers(x)
+               ~~~~~~~~~~~ <--- HERE
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 114, in forward
+    def forward(self, x):
+        return self.layers(x)
+               ~~~~~~~~~~~ <--- HERE
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 60, in forward
+        
+        #x = checkpoint(self.layers, x)
+        x = self.layers(x)
+            ~~~~~~~~~~~ <--- HERE
+    
+        return x + res
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/blocks.py", line 337, in forward
+            alpha = torch.exp(alpha)
+            beta = torch.exp(beta)
+        x = snake_beta(x, alpha, beta)
+            ~~~~~~~~~~ <--- HERE
+    
+        return x
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/blocks.py", line 302, in snake_beta
+def snake_beta(x, alpha, beta):
+    return x + (1.0 / (beta + 0.000000001)) * pow(torch.sin(x * alpha), 2)
+                                                  ~~~~~~~~~ <--- HERE
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 GiB. GPU 0 has a total capacity of 23.53 GiB of which 1.84 GiB is free. Process 270371 has 482.00 MiB memory in use. Process 3826038 has 5.79 GiB memory in use. Including non-PyTorch memory, this process has 9.63 GiB memory in use. Process 3839261 has 5.79 GiB memory in use. Of the allocated memory 9.15 GiB is allocated by PyTorch, and 19.24 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+
+
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2025 03:53:26] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-18 03:53:27.501] 管线失败：
+Wrote 4 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00102/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+
+ERR:
+/home/app/.local/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:121: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+/home/app/.local/lib/python3.13/site-packages/torch/nn/utils/weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Building prefix dict from the default dictionary ...
+Loading model from cache /18T/app/tmp/app/jieba.cache
+Loading model cost 0.705 seconds.
+Prefix dict has been built successfully.
+/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py:101: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:254.)
+  batch_label_starts = torch.tensor(batch_label_starts, dtype=torch.long)
+Traceback (most recent call last):
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer.py", line 197, in <module>
+    generated_songs = inference(
+        cfm_model=cfm,
+    ...<9 lines>...
+        batch_infer_num=args.batch_infer_num
+    )
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer.py", line 70, in inference
+    output = decode_audio(latent, vae_model, chunked=chunked)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer_utils.py", line 104, in decode_audio
+    return vae_model.decode_export(latents)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+RuntimeError: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/stable_audio_tools/models/autoencoders.py", line 22, in decode_export
+    latents: Tensor) -> Tensor:
+    decoder = self.decoder
+    return (decoder).forward(latents, )
+            ~~~~~~~~~~~~~~~~ <--- HERE
+  def encode_export(self: __torch__.stable_audio_tools.models.autoencoders.AudioAutoencoder,
+    audio: Tensor) -> Tensor:
+  File "code/__torch__/stable_audio_tools/models/autoencoders.py", line 70, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    return (layers).forward(x, )
+            ~~~~~~~~~~~~~~~ <--- HERE
+class DecoderBlock(Module):
+  __parameters__ = []
+  File "code/__torch__/torch/nn/modules/container/___torch_mangle_69.py", line 28, in forward
+    input0 = (_0).forward(input, )
+    input1 = (_1).forward(input0, )
+    input2 = (_2).forward(input1, )
+              ~~~~~~~~~~~ <--- HERE
+    input3 = (_3).forward(input2, )
+    input4 = (_4).forward(input3, )
+  File "code/__torch__/stable_audio_tools/models/autoencoders/___torch_mangle_58.py", line 10, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    return (layers).forward(x, )
+            ~~~~~~~~~~~~~~~ <--- HERE
+  File "code/__torch__/torch/nn/modules/container/___torch_mangle_57.py", line 20, in forward
+    input0 = (_0).forward(input, )
+    input1 = (_1).forward(input0, None, )
+    input2 = (_2).forward(input1, )
+              ~~~~~~~~~~~ <--- HERE
+    input3 = (_3).forward(input2, )
+    return (_4).forward(input3, )
+  File "code/__torch__/stable_audio_tools/models/autoencoders/___torch_mangle_29.py", line 11, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    x0 = (layers).forward(x, )
+          ~~~~~~~~~~~~~~~ <--- HERE
+    return torch.add(x0, x)
+  File "code/__torch__/torch/nn/modules/container/___torch_mangle_28.py", line 18, in forward
+    input0 = (_0).forward(input, )
+    input1 = (_1).forward(input0, )
+    input2 = (_2).forward(input1, )
+              ~~~~~~~~~~~ <--- HERE
+    return (_3).forward(input2, )
+  def __len__(self: __torch__.torch.nn.modules.container.___torch_mangle_28.Sequential) -> int:
+  File "code/__torch__/stable_audio_tools/models/blocks.py", line 23, in forward
+    else:
+      alpha1, beta1 = alpha0, beta0
+    return _0(x, alpha1, beta1, )
+           ~~ <--- HERE
+def snake_beta(x: Tensor,
+    alpha: Tensor,
+  File "code/__torch__/stable_audio_tools/models/blocks.py", line 29, in snake_beta
+  _1 = torch.add(beta, 1.0000000000000001e-09)
+  _2 = torch.mul(torch.reciprocal(_1), 1.)
+  _3 = torch.pow(torch.sin(torch.mul(x, alpha)), 2)
+                 ~~~~~~~~~ <--- HERE
+  return torch.add(x, torch.mul(_2, _3))
+
+Traceback of TorchScript, original code (most recent call last):
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 327, in decode_export
+    @torch.jit.export
+    def decode_export(self, latents):
+        decoded = self.decoder(latents)
+                  ~~~~~~~~~~~~ <--- HERE
+        return decoded
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 191, in forward
+    def forward(self, x):
+        return self.layers(x)
+               ~~~~~~~~~~~ <--- HERE
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 114, in forward
+    def forward(self, x):
+        return self.layers(x)
+               ~~~~~~~~~~~ <--- HERE
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 60, in forward
+        
+        #x = checkpoint(self.layers, x)
+        x = self.layers(x)
+            ~~~~~~~~~~~ <--- HERE
+    
+        return x + res
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/blocks.py", line 337, in forward
+            alpha = torch.exp(alpha)
+            beta = torch.exp(beta)
+        x = snake_beta(x, alpha, beta)
+            ~~~~~~~~~~ <--- HERE
+    
+        return x
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/blocks.py", line 302, in snake_beta
+def snake_beta(x, alpha, beta):
+    return x + (1.0 / (beta + 0.000000001)) * pow(torch.sin(x * alpha), 2)
+                                                  ~~~~~~~~~ <--- HERE
+RuntimeError: CUDA out of memory. Tried to allocate 256.00 MiB. GPU 0 has a total capacity of 23.53 GiB of which 51.69 MiB is free. Process 270371 has 482.00 MiB memory in use. Process 3826038 has 6.88 GiB memory in use. Process 3835695 has 9.63 GiB memory in use. Including non-PyTorch memory, this process has 6.47 GiB memory in use. Of the allocated memory 5.90 GiB is allocated by PyTorch, and 117.24 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+
+
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2025 03:53:27] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-18 03:53:27.655] 管线失败：
+Wrote 5 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00100/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+
+ERR:
+/home/app/.local/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:121: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+/home/app/.local/lib/python3.13/site-packages/torch/nn/utils/weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Building prefix dict from the default dictionary ...
+Loading model from cache /18T/app/tmp/app/jieba.cache
+Loading model cost 0.660 seconds.
+Prefix dict has been built successfully.
+/18T/app/chatbot_online/music_generation/DiffRhythm/g2p/g2p/chinese_model_g2p.py:101: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:254.)
+  batch_label_starts = torch.tensor(batch_label_starts, dtype=torch.long)
+Traceback (most recent call last):
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer.py", line 197, in <module>
+    generated_songs = inference(
+        cfm_model=cfm,
+    ...<9 lines>...
+        batch_infer_num=args.batch_infer_num
+    )
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer.py", line 70, in inference
+    output = decode_audio(latent, vae_model, chunked=chunked)
+  File "/18T/app/chatbot_online/music_generation/DiffRhythm/infer/infer_utils.py", line 104, in decode_audio
+    return vae_model.decode_export(latents)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+RuntimeError: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/stable_audio_tools/models/autoencoders.py", line 22, in decode_export
+    latents: Tensor) -> Tensor:
+    decoder = self.decoder
+    return (decoder).forward(latents, )
+            ~~~~~~~~~~~~~~~~ <--- HERE
+  def encode_export(self: __torch__.stable_audio_tools.models.autoencoders.AudioAutoencoder,
+    audio: Tensor) -> Tensor:
+  File "code/__torch__/stable_audio_tools/models/autoencoders.py", line 70, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    return (layers).forward(x, )
+            ~~~~~~~~~~~~~~~ <--- HERE
+class DecoderBlock(Module):
+  __parameters__ = []
+  File "code/__torch__/torch/nn/modules/container/___torch_mangle_69.py", line 29, in forward
+    input1 = (_1).forward(input0, )
+    input2 = (_2).forward(input1, )
+    input3 = (_3).forward(input2, )
+              ~~~~~~~~~~~ <--- HERE
+    input4 = (_4).forward(input3, )
+    input5 = (_5).forward(input4, )
+  File "code/__torch__/stable_audio_tools/models/autoencoders/___torch_mangle_61.py", line 10, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    return (layers).forward(x, )
+            ~~~~~~~~~~~~~~~ <--- HERE
+  File "code/__torch__/torch/nn/modules/container/___torch_mangle_60.py", line 20, in forward
+    input0 = (_0).forward(input, )
+    input1 = (_1).forward(input0, None, )
+    input2 = (_2).forward(input1, )
+              ~~~~~~~~~~~ <--- HERE
+    input3 = (_3).forward(input2, )
+    return (_4).forward(input3, )
+  File "code/__torch__/stable_audio_tools/models/autoencoders/___torch_mangle_16.py", line 11, in forward
+    x: Tensor) -> Tensor:
+    layers = self.layers
+    x0 = (layers).forward(x, )
+          ~~~~~~~~~~~~~~~ <--- HERE
+    return torch.add(x0, x)
+  File "code/__torch__/torch/nn/modules/container/___torch_mangle_15.py", line 16, in forward
+    _2 = getattr(self, "2")
+    _3 = getattr(self, "3")
+    input0 = (_0).forward(input, )
+              ~~~~~~~~~~~ <--- HERE
+    input1 = (_1).forward(input0, )
+    input2 = (_2).forward(input1, )
+  File "code/__torch__/stable_audio_tools/models/blocks.py", line 23, in forward
+    else:
+      alpha1, beta1 = alpha0, beta0
+    return _0(x, alpha1, beta1, )
+           ~~ <--- HERE
+def snake_beta(x: Tensor,
+    alpha: Tensor,
+  File "code/__torch__/stable_audio_tools/models/blocks.py", line 29, in snake_beta
+  _1 = torch.add(beta, 1.0000000000000001e-09)
+  _2 = torch.mul(torch.reciprocal(_1), 1.)
+  _3 = torch.pow(torch.sin(torch.mul(x, alpha)), 2)
+                 ~~~~~~~~~ <--- HERE
+  return torch.add(x, torch.mul(_2, _3))
+
+Traceback of TorchScript, original code (most recent call last):
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 327, in decode_export
+    @torch.jit.export
+    def decode_export(self, latents):
+        decoded = self.decoder(latents)
+                  ~~~~~~~~~~~~ <--- HERE
+        return decoded
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 191, in forward
+    def forward(self, x):
+        return self.layers(x)
+               ~~~~~~~~~~~ <--- HERE
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 114, in forward
+    def forward(self, x):
+        return self.layers(x)
+               ~~~~~~~~~~~ <--- HERE
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/autoencoders.py", line 60, in forward
+        
+        #x = checkpoint(self.layers, x)
+        x = self.layers(x)
+            ~~~~~~~~~~~ <--- HERE
+    
+        return x + res
+  File "/home/node59_tmpdata1/miniconda3/envs/py310/lib/python3.10/site-packages/torch/nn/modules/container.py", line 219, in forward
+    def forward(self, input):
+        for module in self:
+            input = module(input)
+                    ~~~~~~ <--- HERE
+        return input
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/blocks.py", line 337, in forward
+            alpha = torch.exp(alpha)
+            beta = torch.exp(beta)
+        x = snake_beta(x, alpha, beta)
+            ~~~~~~~~~~ <--- HERE
+    
+        return x
+  File "/home/node59_tmpdata3/hkchen/F5-TTS-V0/infer/stable_audio_tools/models/blocks.py", line 302, in snake_beta
+def snake_beta(x, alpha, beta):
+    return x + (1.0 / (beta + 0.000000001)) * pow(torch.sin(x * alpha), 2)
+                                                  ~~~~~~~~~ <--- HERE
+RuntimeError: CUDA out of memory. Tried to allocate 512.00 MiB. GPU 0 has a total capacity of 23.53 GiB of which 385.69 MiB is free. Process 270371 has 482.00 MiB memory in use. Including non-PyTorch memory, this process has 6.88 GiB memory in use. Process 3835695 has 9.63 GiB memory in use. Process 3839261 has 6.40 GiB memory in use. Of the allocated memory 6.15 GiB is allocated by PyTorch, and 281.24 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+
+
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2025 03:53:27] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-18 03:57:13.382] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-18 03:57:13.382] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '玫瑰', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-18 03:57:13.382] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-18 03:57:13.382] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-18 03:57:49.057] 管线输出：
+Wrote 21 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00103/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.81 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00103/song.wav
+request_id=REQ-00103
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00103/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00103/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00103/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2025 03:57:49] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-18 04:38:24.902] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-18 04:38:24.902] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': ' 星空', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-18 04:38:24.902] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-18 04:38:24.902] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "星空"}']
+
+INFO:root:[2025-08-18 04:39:04.140] 管线输出：
+Wrote 1 lines to: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00104/rough.lrc
+Current working directory: /18T/app/chatbot_online/music_generation/DiffRhythm
+./g2p/sources/g2p_chinese_model/poly_bert_model.onnx
+inference cost 3.88 seconds
+Wrote: /18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00104/song.wav
+request_id=REQ-00104
+lyrics_txt=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00104/lyrics.txt
+final_lrc=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00104/final.lrc
+audio_path=/18T/app/chatbot_online/music_generation/music_pipeline/data/requests/REQ-00104/song.wav
+
+
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2025 04:39:04] "POST /synthesis_music HTTP/1.1" 200 -
+INFO:root:[2025-08-18 04:42:57.460] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-18 04:42:57.460] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'keyword': '玫瑰'}
+
+INFO:root:[2025-08-18 04:42:57.460] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-18 04:42:57.460] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "玫瑰"}']
+
+INFO:root:[2025-08-18 04:44:02.445] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-18 04:44:02.445] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '浙江', 'singer_id': 0, 'style_id': 0}
+
+INFO:root:[2025-08-18 04:44:02.445] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-18 04:44:02.445] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "浙江"}']
+
+INFO:root:[2025-08-18 04:45:36.999] 终端访问地址：127.0.0.1
+
+INFO:root:[2025-08-18 04:45:36.999] 用户：127_0_0_1，发起音乐文本生成请求！ 原始data={'text': '', 'keyword': '浙江', 'singer_id': 1, 'style_id': 0}
+
+INFO:root:[2025-08-18 04:45:36.999] 判定模式：theme_from_keyword；audio_length=95；ref_prompt=hopeful,ballad,pop,emotion；payload_keys=['audio_length', 'ref_prompt', 'keyword']
+
+INFO:root:[2025-08-18 04:45:36.999] 运行管线命令：['bash', 'music_pipeline/bin/pipeline.sh', '{"audio_length": 95, "ref_prompt": "hopeful,ballad,pop,emotion", "keyword": "浙江"}']
+
