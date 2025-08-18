@@ -1,0 +1,623 @@
+nohup: ignoring input
+ * Serving Flask app 'proxy_5500_to_5005'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5500
+ * Running on http://10.20.49.135:5500
+Press CTRL+C to quit
+127.0.0.1 - - [13/Aug/2025 08:58:53] "GET /healthz HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 08:59:57] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 09:00:55] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 09:03:20] "POST /synthesis_music HTTP/1.1" 200 -
+[2025-08-13 09:07:28,915] ERROR in app: Exception on /healthz [GET]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 494, in request
+    self.endheaders()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 325, in connect
+    self.sock = self._new_conn()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7df435120730>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5005): Max retries exceeded with url: /healthz (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df435120730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 9, in healthz
+    r = requests.get(f"{TARGET}/healthz", timeout=5)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5005): Max retries exceeded with url: /healthz (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df435120730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+127.0.0.1 - - [13/Aug/2025 09:07:28] "GET /healthz HTTP/1.1" 500 -
+[2025-08-13 09:07:46,396] ERROR in app: Exception on /healthz [GET]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 494, in request
+    self.endheaders()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 325, in connect
+    self.sock = self._new_conn()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7df435aa9600>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5005): Max retries exceeded with url: /healthz (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df435aa9600>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 9, in healthz
+    r = requests.get(f"{TARGET}/healthz", timeout=5)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5005): Max retries exceeded with url: /healthz (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df435aa9600>: Failed to establish a new connection: [Errno 111] Connection refused'))
+127.0.0.1 - - [13/Aug/2025 09:07:46] "GET /healthz HTTP/1.1" 500 -
+[2025-08-13 09:07:56,204] ERROR in app: Exception on /synthesis_music [POST]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 494, in request
+    self.endheaders()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 325, in connect
+    self.sock = self._new_conn()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7df435120340>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5005): Max retries exceeded with url: /synthesis_music (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df435120340>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 15, in synthesis_music
+    r = requests.post(f"{TARGET}/synthesis_music", json=data, timeout=900)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5005): Max retries exceeded with url: /synthesis_music (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df435120340>: Failed to establish a new connection: [Errno 111] Connection refused'))
+127.0.0.1 - - [13/Aug/2025 09:07:56] "POST /synthesis_music HTTP/1.1" 500 -
+[2025-08-13 09:11:14,875] ERROR in app: Exception on /synthesis_music [POST]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 494, in request
+    self.endheaders()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 325, in connect
+    self.sock = self._new_conn()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7df4351228f0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=5005): Max retries exceeded with url: /synthesis_music (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df4351228f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 15, in synthesis_music
+    r = requests.post(f"{TARGET}/synthesis_music", json=data, timeout=900)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5005): Max retries exceeded with url: /synthesis_music (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7df4351228f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+127.0.0.1 - - [13/Aug/2025 09:11:14] "POST /synthesis_music HTTP/1.1" 500 -
+127.0.0.1 - - [13/Aug/2025 09:22:16] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 09:27:07] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [13/Aug/2025 09:31:57] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [13/Aug/2025 09:37:49] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 09:38:43] "POST /synthesis_music HTTP/1.1" 200 -
+[2025-08-13 11:36:36,005] ERROR in app: Exception on /synthesis_music [POST]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/app/.conda/envs/drunner/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 15, in synthesis_music
+    r = requests.post(f"{TARGET}/synthesis_music", json=data, timeout=900)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+127.0.0.1 - - [13/Aug/2025 11:36:36] "POST /synthesis_music HTTP/1.1" 500 -
+127.0.0.1 - - [13/Aug/2025 11:41:37] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 11:42:18] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 11:43:04] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 11:43:48] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 11:44:29] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 12:09:25] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 12:12:06] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2025 12:14:13] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [14/Aug/2025 02:09:19] "POST /synthesis_music HTTP/1.1" 200 -
+[2025-08-14 02:24:44,541] ERROR in app: Exception on /synthesis_music [POST]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/app/.conda/envs/drunner/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 15, in synthesis_music
+    r = requests.post(f"{TARGET}/synthesis_music", json=data, timeout=900)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+127.0.0.1 - - [14/Aug/2025 02:24:44] "POST /synthesis_music HTTP/1.1" 500 -
+127.0.0.1 - - [14/Aug/2025 02:30:15] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [14/Aug/2025 02:33:42] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [14/Aug/2025 02:37:26] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [14/Aug/2025 02:41:10] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [14/Aug/2025 02:42:38] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [14/Aug/2025 02:49:46] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [14/Aug/2025 03:29:55] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [14/Aug/2025 04:54:35] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 02:37:47] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 07:11:59] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 07:29:30] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 07:38:28] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 07:41:03] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 07:46:52] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 08:13:02] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [15/Aug/2025 08:17:10] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 08:19:21] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [15/Aug/2025 08:27:05] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [15/Aug/2025 08:28:40] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2025 08:30:51] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [15/Aug/2025 08:48:20] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [15/Aug/2025 09:26:46] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [15/Aug/2025 09:27:46] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [15/Aug/2025 09:29:05] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2025 03:53:26] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2025 03:53:27] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2025 03:53:27] "POST /synthesis_music HTTP/1.1" 200 -
+127.0.0.1 - - [18/Aug/2025 03:57:49] "POST /synthesis_music HTTP/1.0" 200 -
+127.0.0.1 - - [18/Aug/2025 04:39:04] "POST /synthesis_music HTTP/1.0" 200 -
+[2025-08-18 04:57:57,558] ERROR in app: Exception on /synthesis_music [POST]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/app/.conda/envs/drunner/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 15, in synthesis_music
+    r = requests.post(f"{TARGET}/synthesis_music", json=data, timeout=900)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+127.0.0.1 - - [18/Aug/2025 04:57:57] "POST /synthesis_music HTTP/1.1" 500 -
+[2025-08-18 04:59:02,544] ERROR in app: Exception on /synthesis_music [POST]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/app/.conda/envs/drunner/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 15, in synthesis_music
+    r = requests.post(f"{TARGET}/synthesis_music", json=data, timeout=900)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+127.0.0.1 - - [18/Aug/2025 04:59:02] "POST /synthesis_music HTTP/1.0" 500 -
+[2025-08-18 05:00:37,009] ERROR in app: Exception on /synthesis_music [POST]
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/app/.conda/envs/drunner/lib/python3.10/socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/18T/app/chatbot_online/music_generation/proxy_5500_to_5005.py", line 15, in synthesis_music
+    r = requests.post(f"{TARGET}/synthesis_music", json=data, timeout=900)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/app/.conda/envs/drunner/lib/python3.10/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=900)
+127.0.0.1 - - [18/Aug/2025 05:00:37] "POST /synthesis_music HTTP/1.0" 500 -

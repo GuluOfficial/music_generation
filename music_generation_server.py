@@ -1,24 +1,11 @@
-# —*- coding: utf-8 -*-
-# Author: zsk
-# Creator Date: 2022/8/30
-# Description: 音乐生成服务
-
+# -*- coding: utf-8 -*-
+from controllers_music_generation import *  # provides `app`
+# near top of music_generation_server.py
 import os
-
-from controllers_music_generation import *
-
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-
-
+os.environ.setdefault("CUDA_VISIBLE_DEVICES", "6")
 def start_server():
-    """
-    启动服务
-    """
-    host = config.host
-    port = config.port
-    app.run(host=host, port=int(port), debug=True, threaded=True, use_reloader=False,
-            ssl_context=(os.path.join(config.cert_file_path, 'server.crt'), os.path.join(config.cert_file_path, 'server.key')))
-
+    from controllers_music_generation.app import app  # ensure the same app
+    app.run(host="0.0.0.0", port=5005, debug=True, threaded=True, use_reloader=False)
 
 if __name__ == "__main__":
     start_server()
