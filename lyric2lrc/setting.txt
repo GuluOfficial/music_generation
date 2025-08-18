@@ -1,0 +1,15 @@
+BASE=/18T/app/chatbot_online/music_generation/ollama-local
+mkdir -p "$BASE/models"
+tar -xzf "$BASE/qwen15b-ollama-store.tgz" -C "$BASE/models"
+
+# make user-space ollama visible
+export PATH="$BASE/bin:$PATH"
+export LD_LIBRARY_PATH="$BASE/lib/ollama:${LD_LIBRARY_PATH:-}"
+export OLLAMA_MODELS="$BASE/models"
+
+# start a user-space server that DOESN'T touch GPUs
+CUDA_VISIBLE_DEVICES="" nohup "$BASE/bin/ollama" serve > "$BASE/ollama.log" 2>&1 &
+
+# sanity check
+"$BASE/bin/ollama" list
+
